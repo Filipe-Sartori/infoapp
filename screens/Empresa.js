@@ -1,0 +1,21 @@
+import * as React from 'react';
+import { Text, View, ScrollView } from 'react-native';
+
+
+export default function Empresa() {
+    return (
+      <View style={{ flex: 1 }}>
+        <ScrollView>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget magna eget risus placerat tincidunt. Vestibulum hendrerit et dui ut pellentesque. Maecenas dignissim tortor nisi, a tempus nisl blandit sit amet. Ut sem velit, ultrices sit amet nibh a, dictum molestie turpis. Pellentesque non mi non lorem finibus interdum. Vestibulum tempor auctor mauris, id egestas tellus consectetur id. Pellentesque ullamcorper ante ut dolor blandit efficitur. Aenean blandit velit et placerat finibus. Sed in ipsum accumsan, aliquet nunc a, viverra purus. Proin nec lectus ac ex finibus gravida ac vitae ex. Vestibulum iaculis tortor quis risus ultricies, sed egestas tellus sollicitudin. Curabitur dignissim lobortis nibh. Maecenas porta enim id quam iaculis, sit amet iaculis leo lacinia.
+
+Maecenas non arcu eros. Vivamus sed velit molestie, pharetra tortor vel, placerat mauris. Vivamus eget fringilla nibh. Suspendisse nunc justo, rhoncus quis faucibus eu, dignissim ut orci. Praesent vel dictum tortor. Suspendisse eget gravida magna. Ut vulputate massa a nibh sagittis fermentum. Suspendisse hendrerit, turpis et pharetra sagittis, nisl lectus feugiat dolor, at consectetur felis felis at nisi. Etiam semper consectetur pharetra. Maecenas feugiat tortor in felis pellentesque iaculis. Etiam pharetra ornare nunc sed varius. Aliquam feugiat pellentesque ligula ut bibendum. Suspendisse nibh urna, convallis eu ultrices eu, congue eleifend ipsum. Vestibulum fermentum lacinia commodo. Quisque sed quam at diam congue tincidunt. Vivamus pellentesque dui vitae arcu sodales auctor.
+
+Ut ut turpis risus. Morbi pulvinar risus elit, et sodales nunc suscipit in. Praesent interdum non velit eget pharetra. Etiam rutrum accumsan dignissim. Sed suscipit, erat non feugiat posuere, erat ligula tempus urna, eget sagittis lorem diam non sapien. Donec eget cursus enim. Nunc vel mi metus. Nullam ut pulvinar enim. Sed est leo, molestie quis turpis quis, faucibus rhoncus arcu. Etiam rhoncus dictum tortor. Proin placerat turpis id est tempor, vitae venenatis lectus ultrices. Quisque pulvinar a lacus sit amet varius. Aenean ac eros sed arcu vulputate bibendum sit amet ultrices odio. Vivamus vel commodo sapien, a ornare ex. Nullam eget dui quis elit sodales euismod.
+
+Curabitur malesuada nibh at auctor vulputate. Pellentesque vel sollicitudin leo. Integer vulputate, lectus vel dictum tristique, purus nisi tempus massa, eu vehicula eros tortor vitae dui. Proin interdum eget mauris ac placerat. Vivamus auctor non odio nec dignissim. Duis tempor elit nec nibh mollis commodo. Proin purus lorem, consectetur quis felis vitae, blandit convallis velit. Aenean nulla velit, pharetra eget urna in, varius placerat nunc. Suspendisse pulvinar vestibulum tellus, ac elementum nunc tincidunt eget. Mauris vulputate, tellus nec fermentum maximus, turpis lectus euismod orci, quis tempus magna arcu sed justo. Proin neque urna, mattis sit amet dictum eget, ultrices at magna. Praesent tincidunt dolor at tortor tincidunt, eu euismod felis lacinia. Aenean venenatis efficitur nisi sed cursus. Sed non lacus sodales, condimentum nulla eu, mollis magna. In in convallis mi, ut condimentum sem. Phasellus sit amet tincidunt urna.
+
+Maecenas dolor felis, bibendum eu blandit a, maximus ut nisl. Nunc porta, ex vitae convallis sagittis, mauris risus tincidunt ex, ornare sagittis lorem felis eget eros. Quisque venenatis ex in lacinia tempus. Praesent quis dignissim massa. Praesent iaculis suscipit enim, et pulvinar libero viverra et. In interdum est mattis, finibus ligula vitae, convallis sapien. Integer vel fermentum orci. Morbi quis pulvinar eros, et sollicitudin sapien. Integer elementum congue lectus, eget imperdiet nibh eleifend id. Quisque id pellentesque nisi, consequat tempus tellus.
+        </ScrollView>
+      </View>
+    );
+  }

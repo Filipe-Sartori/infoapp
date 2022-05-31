@@ -4,30 +4,11 @@ import { Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import Produtos from './Produtos';
+import Empresa from './Empresa';
+import Menu from './Menu';
+import Perfil from './Perfil';
 
-function Feed() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Feed!</Text>
-    </View>
-  );
-}
-
-function Profile() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Profile!</Text>
-    </View>
-  );
-}
-
-function Notifications() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Notifications!</Text>
-    </View>
-  );
-}
 
 const Tab = createBottomTabNavigator();
 
@@ -35,38 +16,53 @@ export default function  Principal() {
   return (
     
     <Tab.Navigator
-      initialRouteName="Feed"
+      initialRouteName="Empresa"
       screenOptions={{
-        tabBarActiveTintColor: '#e91e63',
+        tabBarActiveTintColor: '#00FFFF',
       }}
     >
+
       <Tab.Screen
-        name="Feed"
-        component={Feed}
+        name="Empresa"
+        component={Empresa}
         options={{
-          tabBarLabel: 'Home',
+          tabBarLabel: 'Empresa',
           tabBarIcon: ({ color, size }) => (
             <MaterialCommunityIcons name="home" color={color} size={size} />
           ),
+          headerShown: false,
         }}
       />
-      <Tab.Screen
-        name="Notifications"
-        component={Notifications}
+
+    {/*  <Tab.Screen
+        name="Menu"
+        component={Menu}
         options={{
-          tabBarLabel: 'Updates',
+          tabBarLabel: 'Menu',
           tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="bell" color={color} size={size} />
+            <MaterialCommunityIcons name="menu" color={color} size={size} />
+          ),
+        }}
+      />*/}
+
+      <Tab.Screen
+        name="Produtos"
+        component={Produtos}
+        options={{
+          tabBarLabel: 'Produtos',
+          tabBarIcon: ({ color, size }) => (
+            <MaterialCommunityIcons name="shopping" color={color} size={size} />
           ),
         }}
       />
-      <Tab.Screen
-        name="Profile"
-        component={Profile}
+
+<Tab.Screen
+        name="Perfil"
+        component={Perfil}
         options={{
-          tabBarLabel: 'Profile',
+          tabBarLabel: 'Perfil',
           tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="account" color={color} size={size} />
+            <MaterialCommunityIcons name="account-edit-outline" color={color} size={size} />
           ),
         }}
       />
