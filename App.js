@@ -14,9 +14,9 @@ function MyStack() {
   return (
     <Stack.Navigator>
 
-      <Stack.Screen name="Login" component={Login} />
-      <Stack.Screen name="Principal" component={Principal} />
-      <Stack.Screen name="Cadastro" component={Cadastro} />
+      <Stack.Screen  name="Login"  component={Login} />
+      <Stack.Screen  name="Principal"  component={Principal} />
+      <Stack.Screen  name="Cadastro"  component={Cadastro} />
 
     </Stack.Navigator>
   );
