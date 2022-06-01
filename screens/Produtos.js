@@ -8,7 +8,7 @@ export default function Produtos() {
       
       <ScrollView>
         <View >                  
-
+          <Text>Tela Para os Produtos</Text>
         </View>
       </ScrollView>
     );
